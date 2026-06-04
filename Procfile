@@ -1,1 +1,1 @@
-web: gunicorn asa_rp_ngoma.wsgi:application
+gunicorn asa_rp_ngoma.wsgi:application
